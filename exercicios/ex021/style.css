@@ -1,0 +1,104 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+}
+
+header {
+    background-color: antiquewhite;
+    width: auto;
+    color: brown;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(216, 191, 191);
+    border-radius: 10px;
+}
+
+#machado {
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
+}
+
+main {
+    background-color: rgba(250, 235, 215, 0.61);
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
+    border-radius: 10px;
+}
+
+nav {
+    background-color: brown;
+    color: antiquewhite;
+    padding: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav > a {
+    padding-left: 5px;
+    color: antiquewhite;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+nav > a:hover {
+    color: darkgoldenrod;
+}
+
+#assuntos > nav {
+    background-color: rgb(206, 149, 149);
+}
+
+#assuntos > nav > a {
+    background-color: rgb(206, 149, 149);
+    color: brown;
+    text-decoration: none;
+    margin-right: 5px
+}
+
+#assuntos > nav > a:hover {
+    color: antiquewhite;
+}
+
+article > aside {
+    margin: 0px auto;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: brown;
+    font-style: italic;
+    color: antiquewhite;
+    text-align: right;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
+    border-radius: 10px;
+}
+
+article > aside > p {
+    margin: 0px;
+    padding: 1px;
+}
+
+#footer {
+    margin: 10px 0px auto;
+    background-color: antiquewhite;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
+    border-radius: 10px;
+}
+
+#footer > footer {
+    margin: 10px 0px;
+    background-color: brown;
+    color: antiquewhite;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.199);
+    border-radius: 10px;
+}
+
+#footer > footer > p {
+    background-color: brown;
+    margin: 1px 10px auto;
+    padding: 2px;
+}
+

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: #7FFA70;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    background-color: #1E3B1A;
+    border-radius: 8px;
+    color: beige;
+    font-size: 2.2em;
+    text-align: center;
+    padding: 5px;
+}
+
+.tópico {
+    background-color: #3F7A37;
+    border-radius: 8px;
+    color: #7FFA70;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 5px;
+}
+
+.sub-tópico {
+    color: #124e0d;
+}
+
+h1 {
+    color: darkgreen;
+}
+
+h2 {
+    color: rgb(1, 77, 1);
+}

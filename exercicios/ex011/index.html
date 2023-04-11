@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <link rel="shortcut icon" href="Designbolts-Free-Cute-Shaded-Social-HTML5.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente <strong>aumente</strong> ou <strong>diminua</strong> o <strong>tamanho do seu navegador</strong>.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <p>Funciona, não?</p>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/teste.mp3" controls autoplay></audio>
+    <p>Porém uma outra forma de inserir o aúdio em seu site:</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/teste.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Incorporando Vídeos no Site</h1>
+    <p>Posso inserir um vídeo hospedado em meu servidor, mas isso consome muita banda e franquia de hospedagem:</p>
+    <video src="midia/Skate_HandBreak.mp4" width="560px" poster="imagens/skate_gimp.jpg" controls autoplay></video>
+    <p>Agora, vamos inserir um vídeo direto do Youtube!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/h2paSwpzOvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
