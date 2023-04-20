@@ -21,13 +21,25 @@
             background-color: darkgray;
             color: white;
             font-size: 1.2em;
+            text-align: center;
         }
 
-        th, td {
+        th {
             border: 1px solid black;
             padding: 10px;
-            text-align: left;
+            text-align: center;
             width: 150px;
+        }
+
+        .alt {
+            text-align: left;
+            font-weight: normal;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
         }
     </style>
     <title>Desafio 14 - 1</title>
@@ -50,48 +62,48 @@
         <tbody>
             <tr>
                 <th rowspan="4" scope="colgroup">Exatas</th>
-                <th scope="rowgroup">Matemática</th>
+                <th scope="rowgroup"class="alt">Matemática</th>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <th scope="rowgroup">Física</th>
+                <th scope="rowgroup"class="alt">Física</th>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <th scope="rowgroup">Química</th>
+                <th scope="rowgroup"class="alt">Química</th>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <th scope="rowgroup">Biologia</th>
+                <th scope="rowgroup"class="alt">Biologia</th>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <thead>
-                <th colspan="4" scope="row">Média de Exatas</th>
+                <th colspan="4" scope="row"class="alt">Média de Exatas</th>
                 <td>0.0</td>
             </thead>
             <tr>
                 <th rowspan="2" scope="colgroup">Humanas</th>
-                <th scope="rowgroup">História</th>
+                <th scope="rowgroup"class="alt">História</th>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <tr>
-                <th scope="rowgroup">Geografia</th>
+                <th scope="rowgroup"class="alt">Geografia</th>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
             <thead>
-                <th colspan="4" scope="row">Média de Humanas</th>
+                <th colspan="4" scope="row"class="alt">Média de Humanas</th>
                 <td>0.0</td>
             </thead>
         </tbody>
