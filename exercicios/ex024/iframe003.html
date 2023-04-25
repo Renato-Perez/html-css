@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+    <title>Uso de iframes</title>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia repudiandae sunt aut aliquam, officia eos, at natus debitis fugiat nihil perferendis modi architecto eum esse doloribus sapiente. Sequi, accusamus aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sint suscipit qui totam tempora quod, magni consequuntur obcaecati tempore neque voluptates consequatur, doloremque nulla unde repellat. Sint repudiandae molestias debitis.</p>
+
+    <ul>
+        <li><a href="paginas_extras/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas_extras/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas_extras/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatibus accusantium, dolores odio aliquam quia culpa harum sequi earum voluptatem. Enim deleniti ut laboriosam illo, sed laudantium magni possimus est.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima!</h1><img src='imagens/jegues.jpg'>" frameborder="1">
+        <p>ops! parece que seu navegador não é compatível!</p>
+    </iframe>
+</body>
+</html>
