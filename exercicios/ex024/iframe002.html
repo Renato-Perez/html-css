@@ -25,6 +25,11 @@
             margin: auto;
             border-radius: 10px;
         }
+
+        .erro {
+            color: red;
+            font-weight: bold;
+        }
     </style>
     <title>iframe</title>
 </head>
@@ -32,7 +37,9 @@
     <h1>Teste com iframe</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eius illo animi quis corrupti sint tenetur vel quaerat quia. Iusto sapiente eius suscipit, magni explicabo beatae provident ad quis omnis? Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 
-    <iframe src="pag001.html" frameborder="0"></iframe>
+    <iframe src="paginas_extras/pag001.html" frameborder="0">
+        <p class="erro">Ops! Parece que seu naavegador não é compatível com isso!</p>
+    </iframe>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quam, dolorum labore mollitia aut eos eum dolores corporis blanditiis eaque autem perferendis accusantium, fugit deleniti veritatis nihil nobis tempora distinctio?</p>
 </body>
