@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #sexo {
+            border: 1px solid red;
+            margin: 5px;
+        }
+
+        #esportes {
+            border: 1px solid red;
+            margin: 5px;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        #botoes {
+            margin: 5px;
+        }
+    </style>
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.html" method="get" autocomplete="on">
+    
+    <fieldset id="sexo">
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="imasc" checked value="M"> <label for="imasc">Masculino</label>
+        <input type="radio" name="sexo" id="ifem" value="F"> <label for="ifem">Feminino</label>
+    </fieldset>
+
+    <fieldset id="esportes">
+        <legend>Esportes Favoritos</legend>
+        <input type="checkbox" name="bas" id="ibas"><label for="ibas">Baseball</label> <br>
+        <input type="checkbox" name="xad" id="ixad" checked><label for="ixad"> Xadrez</label> <br>
+        <input type="checkbox" name="ska" id="iska"><label for="iska"> Skate</label> <br>
+        <input type="checkbox" name="ten" id="iten"><label for="iten"> Tenis</label>
+    </fieldset>
+        <p id="botoes">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
