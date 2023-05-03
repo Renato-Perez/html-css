@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* Estilo para Telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: rgba(137, 43, 226, 0.466);
+}
+
+header > h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: blueviolet;
+}
+
+menu li {
+    display: inline-block;
+    padding: 2px 5px;
+    color: white;
+}
+
+menu li:hover {
+    color: rgba(4, 4, 204, 0.993);
+    font-size: 1.2em;
+    transition: .3s;
+}
+
+article {
+    padding: 10px;
+}
+
+article > h2 {
+    padding: 10px;
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+article > p {
+    text-align: justify;
+    padding: 5px;
+    text-indent: 5px;
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    padding: 5px;
+    background-color: blueviolet;
+}
+
+footer > p {
+    background-color: rgba(137, 43, 226, 0.466);
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: .8em;
+}
