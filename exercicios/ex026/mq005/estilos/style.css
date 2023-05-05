@@ -11,26 +11,71 @@ html, body {
 }
 
 header {
+    background-color: darkgray;
+}
 
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 menu {
-
+    display: block;
 }
 
-menu ul {
-    
+menu > ul {
+    list-style-type: none;
+}
+
+menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: rgb(131, 131, 131);
+    border-top: 2px solid lightgrey;
+}
+
+a:hover {
+    background-color: lightgray;
+    transition: .3s;
 }
 
 main {
-
+    padding: 10px;
+    width: 90vw;
+    max-width: 600px;
 }
 
 article {
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    margin: auto;
+}
 
+article > h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+article > p {
+    padding: 5px;
 }
 
 footer {
+    background-color: darkgray;
+}
 
+footer > p {
+    text-align: center;
+    font-weight: bold;
+    font-size: .9em;
+    padding: 3px;
+    color: white;
 }
 
